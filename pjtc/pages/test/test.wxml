@@ -1,0 +1,36 @@
+<!--pages/test/test.wxml-->
+<text>{{hello}}</text>
+
+<view>{{num1}} + {{num2}} = {{num1+num2}}</view>
+
+<view>I'm {{testUser.name}}+, a {{testUser.age}} years old {{testUser.gender==1?"boy":"girl"}}</view>
+
+<view hidden='flag'>test show / hidden view</view>
+
+<text wx:if="{{testUser.isVip}}">欢迎登录，尊敬的VIP会员！</text>
+<text wx:else>欢迎登录，小伙子。</text>
+<view>您的年龄
+<text wx:if="{{testUser.age>38}}">大于38</text>
+<text wx:elif="{{testUser.age>28}}">大于28</text>
+<text wx:elif="{{testUser.age>18}}">大于18</text>
+</view>
+
+<block wx:if="{{flag}}">
+  <view>222</view>
+  <view>222</view>
+  <view>222</view>
+  <view>222</view>
+</block>
+
+<view wx:if="{{flag}}">
+  <view>333</view>
+  <view>333</view>
+  <view>333</view>
+  <view>333</view>
+</view>
+
+<view hidden='{{flag}}'>123123</view>
+
+<view wx:for='{{customers}}' wx:for-index='i' wx:for-item='customer'>
+  <view>{{i}} - {{customer.namge}} - {{customer.age}} - {{customer.gender==1?"男":(customer.gender==0?"女":"保密")}}</view>
+</view>

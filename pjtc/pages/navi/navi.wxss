@@ -1,0 +1,6 @@
+/* pages/navi/navi.wxss */
+button{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+}

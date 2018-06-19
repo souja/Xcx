@@ -1,7 +1,17 @@
 {
   "pages":[
-    "pages/test/test",
+    "pages/picker/picker",
+    "pages/slider/slider",
+    "pages/calculator/calculator",
+    "pages/icon/icon",
+    "pages/input/input",
+    "pages/navi/navi",
+    "pages/btns/btns",
+    "pages/css/css",
+    "pages/event/event",
     "pages/index/index",
+    "pages/template/template",
+    "pages/test/test",
     "pages/category/category",
     "pages/cart/cart",
     "pages/my/my",

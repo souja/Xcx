@@ -1,0 +1,11 @@
+/* pages/input/input.wxss */
+
+input {
+  width: 80%;
+  height: 90rpx;
+  margin-left: 10%;
+  margin-top: 10rpx;
+  padding-left: 30rpx;
+  border: 1rpx solid darkblue;
+  border-radius: 8rpx;
+}

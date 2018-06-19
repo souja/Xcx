@@ -1,4 +1,9 @@
 <!--pages/test/test.wxml-->
+
+<import src="../template/template.wxml"/>
+<template is="welcome"/>
+
+
 <text>{{hello}}</text>
 
 <view>{{num1}} + {{num2}} = {{num1+num2}}</view>
@@ -34,3 +39,5 @@
 <view wx:for='{{customers}}' wx:for-index='i' wx:for-item='customer'>
   <view>{{i}} - {{customer.namge}} - {{customer.age}} - {{customer.gender==1?"男":(customer.gender==0?"女":"保密")}}</view>
 </view>
+
+<include src="../template/template.wxml"/>

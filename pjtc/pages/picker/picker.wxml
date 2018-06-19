@@ -1,0 +1,15 @@
+<view class='list'>
+  <view class='lb-left'>地区：</view>
+  <view class='address'>
+    <block wx:if="{{address==''}}">
+      <view>请选择地区</view>
+    </block>
+    <block wx:else>
+      <view>
+        {{address}}
+      </view>
+    </block>
+  </view>
+</view>
+<input bindinput='setAddress'></input>
+<button bindtap='sub'>Submit</button>

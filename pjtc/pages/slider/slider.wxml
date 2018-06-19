@@ -1,0 +1,57 @@
+<!--pages/slider/slider.wxml-->
+<slider min='0' max='100' step='10' show-value backgroundColor='#312705' selected-color='#43f056'></slider>
+
+<slider min='0' max='10' step='1' bindchange='tellLength'></slider>
+
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+  </label>
+</checkbox-group>
+
+<button bindtap='test'>test</button>
+<button bindtap='test1'>test1</button>
+<text>{{name}}</text>
+<button bindtap='test2'>test2</button>
+
+<switch checked='true' color='blue' bindchange='tellStatus'>on/off</switch>
+<switch type='checkbox' color='red'></switch>
+<view>
+  <radio-group bindchange="chooseGender">
+    <radio value='1' checked='true'>男</radio>
+    <radio value='0' color='red'>女</radio>
+  </radio-group>
+</view>
+<view>
+  <checkbox-group bindchange="selectAbc">
+    <checkbox value='aa' color='red'>aa</checkbox>
+    <checkbox value='bb' color='purple'>bb</checkbox>
+    <checkbox value='cc' color='blue' checked='a'>cc</checkbox>
+  </checkbox-group>
+</view>
+<view>
+  <checkbox-group>
+    <block wx:for="{{boxData}}" wx:for-item="bd">
+      <checkbox value='{{bd}}'></checkbox>
+    </block>
+  </checkbox-group>
+</view>
+<label for='swt'>点击</label>
+<view>------</view>
+<radio id='rdo'>rdo</radio>
+<view>=====</view>
+<button id='btn' bindtap='ttt'>btn</button>
+<view>***</view>
+<checkbox id='cb'>cbx</checkbox>
+<switch id='swt'>swt</switch>
+
+<label>
+  <radio></radio>
+  <view></view>
+  <button></button>
+  <view></view>
+  <checkbox></checkbox>
+  <view></view>
+  <switch></switch>
+  <view>选中</view>
+</label>

@@ -1,0 +1,7 @@
+<!--pages/icon/icon.wxml-->
+<block wx:for='{{iconType}}' wx:for-item='icon'>
+  <block wx:for='{{iconSize}}' wx:for-item='size'>
+    <icon type='{{icon}}' size='{{size}}'></icon>
+  </block>
+  <view></view>
+</block>

@@ -1,0 +1,12 @@
+/* pages/views/views.wxss */
+button{
+  margin: 30rpx;
+}
+.hover1{
+  background: rebeccapurple;
+  color: green;
+}
+.hover2{
+  background: darkblue;
+  color: lightcoral;
+}

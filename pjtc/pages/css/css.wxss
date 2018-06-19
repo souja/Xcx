@@ -1,0 +1,41 @@
+/* pages/css/css.wxss */
+@import "../../app.wxss";
+
+.a{
+  width: 400rpx;
+  height: 120rpx;
+  background: skyblue;
+  color: white;
+}
+
+.content1{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-item{
+  display: flex;
+  width: 250rpx;
+  height: 100rpx;
+  background: lightblue;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.content2{
+  margin-top: 10rpx;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content3{
+  margin-top: 10rpx;
+  width: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

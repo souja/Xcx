@@ -1,0 +1,28 @@
+/* pages/anli1/anli1.wxss */
+input{
+  width: 70%;
+  height: 90rpx;
+  margin-left: 15%;
+  border: 1px solid darkorange;
+  border-radius: 8rpx;
+  margin-top: 15rpx;
+  padding-left: 30rpx
+}
+button{
+  margin-top: 30rpx;
+  width: 70%;
+  margin-left: 15%;  
+}
+.hover1{
+  background: darkviolet;
+  color: white;
+}
+#result{
+  padding: 10rpx;
+  margin-top: 30rpx;
+  width: 80%;
+  margin-left: 10%;
+  background: yellowgreen;
+  color: white;
+  align-items: center;
+}

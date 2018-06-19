@@ -1,0 +1,12 @@
+<!--pages/anli1/anli1.wxml-->
+<input type='number' placeholder='请输入语文成绩' bindinput='syncChinese'></input>
+<input type='number' placeholder='请输入数学成绩' bindinput='syncMath'></input>
+<input type='number' placeholder='请输入英语成绩' bindinput='syncEnglish'></input>
+<button bindtap='calcAvg' plain='true' hover-class='hover1'>计算平均分</button>
+<view hidden='{{hideTip}}'>请输入完整的成绩</view>
+<view id='result' hidden='{{hideResult}}'>
+  <view>语文成绩：{{chineseScore}}</view>
+  <view>数学成绩：{{mathScore}}</view>
+  <view>英语成绩：{{englishScore}}</view>
+  <view>平均成绩：{{avgScore}}</view>
+</view>

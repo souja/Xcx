@@ -1,0 +1,13 @@
+<!--pages/template/template.wxml-->
+<template name='userInfo'>
+  <view>{{user.name}} -- {{user.age}} -- {{user.gender}}</view>
+</template>
+
+<template name='welcome'>
+  <view>Welcome</view>
+</template>
+
+<template is='welcome'></template>
+<view wx:for='{{userList}}' wx:for-item='user'>
+  <template is='userInfo' data='{{user}}'></template>
+</view>

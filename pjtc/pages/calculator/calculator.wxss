@@ -1,0 +1,52 @@
+page {
+  background: #efefef;
+}
+
+.screen {
+  position: fixed;
+  bottom: 780rpx;
+  width: 750rpx;
+}
+
+.screen view {
+  color: red;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 30rpx;
+  background: yellow;
+  word-wrap: break-word;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-item {
+  width: 187.5rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  border-radius: 0;
+}
+
+.zero {
+  width: 375rpx;
+}
+
+.keyboard {
+  position: fixed;
+  bottom: 0;
+}
+
+.simbol {
+  background: orange;
+}
+
+.func {
+  background: lightgray;
+}
+
+.keyboard .btn-group .btn-item icon{
+  position: absolute;
+  left: 
+}

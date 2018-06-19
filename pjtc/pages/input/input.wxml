@@ -1,0 +1,12 @@
+<!--pages/input/input.wxml-->
+<input value='text' placeholder='请输入内容' focus='{{flag}}' confirm-type='next'/>
+<input value='pwd' placeholder='请输入密码' placeholder-style='color:red;' confirm-type='send' />
+<input value='number' maxlength='11' type='number' placeholder='请输入数字' confirm-type='go'/>
+<input value='digit' type='digit' confirm-type='search'/>
+<input value='idCard' type='idcard' confirm-type='done'/>
+
+<button data-flag='{{flag}}' bindtap='getFocus'>获取焦点</button>
+
+<input bindinput='sync'>input</input>
+<input value='{{text}}'>output</input>
+

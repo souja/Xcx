@@ -1,0 +1,24 @@
+<!--pages/css/css.wxml-->
+<view class='a b'>pages/css/css.wxml</view>
+
+<text style='color:red;'>abc content...</text>
+
+<text class='content'>another content...</text>
+
+<view class='content1'>
+  <view class='content-item'>111</view>
+  <view class='content-item'>222</view>
+  <view class='content-item'>333</view>
+</view>
+
+<view class='content2'>
+  <view class='content-item'>aaa</view>
+  <view class='content-item'>bbb</view>
+  <view class='content-item'>ccc</view>
+</view>
+
+<view class='content3'>
+  <view class='content-item'>123</view>
+  <view class='content-item'>456</view>
+  <view class='content-item'>111</view>
+</view>

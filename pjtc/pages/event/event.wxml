@@ -1,0 +1,12 @@
+<!--pages/event/event.wxml-->
+<text>pages/event/event.wxml</text>
+<view id='testView' data-date='2018-01-01 12:03:55' data-aa='123' bindtap='testClick'>{{pageName}}</view>
+
+<view bindtap='test1'>
+  <button bindtap='test2'>bind tap2</button>
+</view>
+
+
+<view bindtap='test1'>
+  <button catchtap='test2'>catch tap2</button>
+</view>

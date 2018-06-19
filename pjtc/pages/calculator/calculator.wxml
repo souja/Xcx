@@ -1,0 +1,38 @@
+<view class='screen'>
+  <view>000</view>
+</view>
+
+
+<view class='keyboard'>
+  <view class='btn-group'>
+    <button class='btn-item func'>清除</button>
+    <button class='btn-item func'>回退</button>
+    <button class='btn-item func'>
+      <icon type='waiting' size='30' color='#999'></icon>
+    </button>
+    <button class='btn-item simbol'>/</button>
+  </view>
+  <view class='btn-group'>
+    <button class='btn-item'>7</button>
+    <button class='btn-item'>8</button>
+    <button class='btn-item'>9</button>
+    <button class='btn-item simbol'>*</button>
+  </view>
+  <view class='btn-group'>
+    <button class='btn-item'>4</button>
+    <button class='btn-item'>5</button>
+    <button class='btn-item'>6</button>
+    <button class='btn-item simbol'>-</button>
+  </view>
+  <view class='btn-group'>
+    <button class='btn-item'>1</button>
+    <button class='btn-item'>2</button>
+    <button class='btn-item'>3</button>
+    <button class='btn-item simbol'>+</button>
+  </view>
+  <view class='btn-group'>
+    <button class='btn-item zero'>0</button>
+    <button class='btn-item'>.</button>
+    <button class='btn-item simbol'>=</button>
+  </view>
+</view>

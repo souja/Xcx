@@ -1,0 +1,12 @@
+/* pages/event/event.wxss */
+button{
+  width: 300rpx;
+  height:90rpx;
+  background: orange;
+  margin-top: 30rpx;
+  color: white;
+}
+
+button:focus{
+  background: #cccccc;
+}

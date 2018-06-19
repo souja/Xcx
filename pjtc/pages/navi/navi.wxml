@@ -1,0 +1,8 @@
+<!--pages/navi/navi.wxml-->
+<button data-index='0' plain='true' bindtap='changePage'>btn组件</button>
+<button data-index='1' plain='true' bindtap='changePage'>模版相关</button>
+<button data-index='2' plain='true' bindtap='changePage'>一些css</button>
+<button data-index='3' plain='true' bindtap='changePage'>一些事件</button>
+<button data-index='4' plain='true' bindtap='changePage'>logs</button>
+<button data-index='5' plain='true' bindtap='changePage'>首页入口</button>
+<button data-index='6' plain='true' bindtap='changePage'>input组件</button>

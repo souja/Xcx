@@ -1,0 +1,10 @@
+<!--pages/views/views.wxml-->
+<button size='mini'>mini button</button>
+<button>default button</button>
+<button type='primary'>primary -> green button</button>
+<button type='warn'>warn -> red button</button>
+<button plain='true'>镂空->背景透明的btn</button>
+<button plain='true' disabled='true'>disable的btn</button>
+<button plain='true' disabled='true' loading='true'>loading的btn</button>
+<button hover-class='hover1'>有hover-class的btn</button>
+<button hover-class='hover2' bindtap='zoomSize'>有hover-class的btn2</button>
